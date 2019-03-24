@@ -20,7 +20,7 @@ class SearchBar extends React.Component{
         return (
             <div style={{marginTop:'10px', width:'auto'}} className='search-bar ui segment'>
                 <form onSubmit={this.onFormSubmit} className='ui form'>
-                    <div className='uiinput fluid'>
+                    <div className='ui input fluid'>
                         <input  placeholder='Search Videos'
                             type='text'
                             value={this.state.term} 
